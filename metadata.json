@@ -1,0 +1,5 @@
+{
+  "name": "Amazonia - E-commerce Portal",
+  "description": "A fully functional Amazon-style e-commerce clone featuring user authentication, product catalog with search and filtering, shopping cart management, and a responsive UI.",
+  "requestFramePermissions": []
+}
