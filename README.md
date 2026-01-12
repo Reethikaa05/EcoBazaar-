@@ -1,81 +1,175 @@
-🛍️ Amazonia - E-commerce Portal
-A fully functional Amazon-style e-commerce clone featuring user authentication, product catalog with search and filtering, shopping cart management, and a responsive UI.
+# 🌱 EcoBazaar – Carbon Footprint Aware Shopping Assistant
 
-Features
-Product Catalog: Display a list of products with details like title, price, and rating.
+## 📌 Project Overview
 
-Search & Filtering: Users can search products and filter them by category.
+EcoBazaar is a Java-based web application designed to promote eco-friendly and sustainable shopping.  
+The platform helps users make environmentally responsible purchase decisions by providing eco-score–based product filtering and AI-based recommendations.
 
-Shopping Cart: Add, update, and remove items from a persistent shopping cart.
+The system supports Users, Vendors, and Administrators with secure authentication and role-based access.
 
-User Authentication: Basic Login and Signup pages for user management.
+---
 
-Responsive Design: Utilizes Tailwind CSS for a clean, mobile-friendly interface.
+## 🎯 Problem Statement
 
-React Development: Built using React and TypeScript for a scalable, type-safe application.
+Most online shopping platforms do not highlight the environmental impact of products.  
+Users are often unaware of the carbon footprint associated with their purchases.
 
-⚙️ Project Structure
-The core application is a React project bootstrapped with Vite, using TypeScript.
+### Issues Identified
+- No eco-friendly product awareness  
+- No carbon footprint comparison  
+- Lack of sustainability-based filtering  
 
-public/index.html: The main HTML file which loads the React application and includes external dependencies (React, React-DOM, etc.) via an importmap.
+### Proposed Solution
+EcoBazaar introduces eco-scores, smart filters, and AI-based recommendations to encourage sustainable shopping habits.
 
-src/index.tsx: The main entry point for the React application, mounting the App component to the DOM.
+---
 
-src/App.tsx: Sets up the application's routing using react-router-dom and context providers for Authentication and Cart functionality. It also handles the conditional rendering of the Navbar.
+## 💡 Key Features
 
-src/types.ts: Defines core TypeScript interfaces for the application's data models, including Product, CartItem, and User, as well as a Category enum.
+### 👤 User Features
+- Secure login and authentication  
+- Browse eco-friendly products  
+- Filter products by eco-score  
+- Add products to cart  
+- Place and manage orders  
+- Personal dashboard  
+- AI-based eco-friendly recommendations  
 
-package.json: Lists project dependencies (react, react-dom, lucide-react, react-router-dom) and development dependencies (typescript, vite, @vitejs/plugin-react).
+### 🛒 Vendor Features
+- Add and manage eco-friendly products  
+- Update product details and eco-scores  
 
-🛠️ Technology Stack
-Framework: React v19
+### 🛠 Admin Features
+- Role-based access control  
+- Manage users, vendors, and products  
+- Ensure transparency and authenticity  
+- Monitor orders and platform activity  
 
-Language: TypeScript
+---
 
-Bundler/Dev Server: Vite
+## 🤖 AI-Based Recommendation System
 
-Styling: Tailwind CSS (loaded via CDN)
+EcoBazaar includes an AI-powered recommendation module that:
+- Suggests eco-friendly alternatives  
+- Analyzes user behavior and preferences  
+- Promotes low carbon footprint products  
 
-Routing: React Router DOM (v7)
+---
 
-Icons: Lucide React
+## 🖥️ Application Modules
 
-🚀 Getting Started
-To run this project locally, ensure you have Node.js and npm or yarn installed.
+- Login Page  
+- Dashboard  
+- Product Listing  
+- Eco-score Filtering  
+- Add to Cart  
+- Orders  
+- Personal Dashboard  
+- About & History Pages  
 
-Clone the repository:
+---
 
-Bash
+## 🛠️ Tech Stack
 
-git clone [your-repo-link]
-cd amazonia-e-commerce-portal
-Install dependencies:
+### Backend
+- Java  
+- Servlets  
+- JDBC  
 
-Bash
+### Frontend
+- JSP  
+- HTML  
+- CSS  
+- JavaScript  
 
-npm install
-# or
-yarn install
-Setup Environment Variables: Create a file named .env in the root directory and add your API keys. (Note: The provided .env.local contains a placeholder for a Gemini API Key, which you may need for advanced features).
+### Database
+- MySQL  
 
-Code snippet
+### Server
+- Apache Tomcat  
 
-# .env
-VITE_GEMINI_API_KEY=YOUR_ACTUAL_API_KEY
-Run the development server:
+---
 
-Bash
+## 🗂️ System Architecture
 
-npm run dev
-# or
-yarn dev
-The application will typically be available at http://localhost:5173.
+- Client Side: JSP, HTML, CSS, JavaScript  
+- Server Side: Java Servlets  
+- Database Layer: MySQL (JDBC)  
+- Server: Apache Tomcat  
 
-📦 Build for Production
-To create a production-ready build:
+---
 
-Bash
+## 🔐 Security Features
 
-npm run build
-# or
-yarn build
+- Secure authentication  
+- Role-based access control  
+- Session management  
+- Admin-controlled operations  
+
+---
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+- Java JDK 8 or above  
+- Apache Tomcat Server  
+- MySQL Database  
+- IDE (Eclipse / IntelliJ / NetBeans)
+
+### Steps
+1. Clone the repository  
+   git clone https://github.com/your-username/EcoBazaar.git
+
+2. Import the project into your IDE  
+
+3. Configure MySQL database and update JDBC credentials  
+
+4. Deploy the project on Apache Tomcat  
+
+5. Run the application in the browser  
+   http://localhost:8080/EcoBazaar
+
+---
+
+## 🧪 Testing
+
+- Manual UI testing  
+- Login and authentication testing  
+- Database CRUD operation testing  
+
+---
+
+## 📈 Future Enhancements
+
+- Real-time carbon footprint calculation  
+- Mobile application version  
+- Advanced AI/ML recommendation engine  
+- Online payment gateway integration  
+- Product lifecycle impact analysis  
+
+---
+
+## 👩‍💻 Team Details
+
+Team Name: Team – 5  
+Project Title: EcoBazaar – Carbon Footprint Aware Shopping Assistant  
+
+### Team Members
+- Reethika Selvam S 
+- Anupriya R 
+- Gadhamsetty Pola Sreeja
+
+### Mentor
+- Pavithra Kannan  
+
+---
+
+## ✅ Conclusion
+
+EcoBazaar is a scalable, secure, and user-friendly eco-commerce platform that encourages sustainable shopping habits and supports eco-friendly vendors.
+
+---
+
+## 🙏 Acknowledgement
+
+We sincerely thank our mentor and institution for their guidance and support in completing this project successfully.
